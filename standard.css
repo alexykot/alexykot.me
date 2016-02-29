@@ -1,0 +1,140 @@
+a:hover { text-decoration: underline; }
+a:link { color: #00a; text-decoration: none; }
+a:visited { color: #009; text-decoration: none; }
+a:visited:hover { color: #0000ff; text-decoration: underline;}
+
+*.header { font-size:20px; color:grey; }
+
+h3 {
+    background-color:#aae; color:white; font-size:140%; margin-right:10px;
+    border-bottom-color:#88c; border-bottom-style:solid; border-bottom-width:2px;
+    border-right-color:#88c; border-right-style:solid; border-right-width:2px;
+    margin-top:3px; margin-bottom:8px;
+}
+h3 a:link, h3 a:visited { color:white; text-docoration:none; }
+h3 a:hover, h3 a:visited:hover { color:white; text-docoration:underline; }
+
+em { font-weight:bold; font-style:normal; }
+strong { font-weight:bold; font-style:normal; color:red; }
+
+*.list { width:100%; }
+*.list td, *.list th { font-family:Verdana,Arial,Geneva; font-size:13px; }
+*.smalllist { width:100%; border-spacing:0px;}
+*.smalllist td, *.smalllist th { font-family:Verdana,Arial,Geneva; font-size:11px; padding-left:2px; padding-right:2px; }
+*.tinylist { width:100%; }
+*.tinylist td, *.tinylist th { font-family:Verdana,Arial,Geneva; font-size:9px; padding:0px; margin:0px; } 
+
+*.sidebar, *.sidebar p {
+    font-family:Verdana,Arial,Geneva; font-size:11px; text-align:center;
+    width:100%;
+    margin:0px; margin-bottom:6px; padding:0px;
+}
+*.sidebar table, *.sidebar tr, *.sidebar td {
+    width:100%; padding:0px; margin:0px; border-spacing:0px;
+}
+
+td.loginform, input.loginform {
+    font-family:Verdana,Arial,Geneva; font-size:11px;
+    text-align:left;
+}
+table.loginform {
+    width:100%; border-color:black;
+    padding-top:2px;    margin-top:4px;    border-top-width:1px;    border-top-style:solid;
+    padding-bottom:2px; margin-bottom:4px; border-bottom-width:1px; border-bottom-style:solid;
+}
+
+table.transparentbox {
+    border-style:none; border-width:0px;
+    border-spacing:14px;
+}
+table.transparentbox td {
+    text-align:left;
+    vertical-align:bottom;
+}
+table.transparentbox td.label {
+    border-bottom-style:dashed;
+    border-bottom-width:1px;
+    padding-right:32px;
+}
+
+*.navigation {
+    font-size:13px;
+}
+*.navigation a, *.navigation a:visited {
+    color:#600;
+    text-decoration:none;
+}
+*.navigation a:hover, *.navigation a:visited:hover {
+    color:#a00;
+    text-decoration:none;
+}
+*.navigation *.level_0 {
+    font-weight:bold;
+    margin-left:0px;
+    margin-top:12px;
+}
+*.navigation *.level_1 {
+    font-weight:bold;
+    margin-left:12px;
+    margin-top:8px;
+}
+*.navigation *.level_2 {
+    margin-left:24px;
+}
+
+*.copyright, *.copyright a, *.copyright a:visited {
+    font-size:10px;
+    color:grey;
+}
+*.copyright a:hover, *.copyright a:visited:hover {
+    color:#444;
+    text-decoration:none;
+}
+
+body
+{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    background-color: #EEFFEE;
+    font-family: Courier New, FreeMono, Lucida Console, Ubuntu Mono;
+    font-size: 80%;
+}
+
+#north
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 25px;
+    border-bottom: 1px dashed black;
+}
+
+#west
+{
+    position: absolute;
+    top: 35px;
+    left: 0px;
+    width: 160px;
+    height: 100%;
+    z-index: 1;
+}
+
+#center
+{
+    position: relative;
+    top: 35px;
+    margin-left: 160px;
+    margin-right: 110px;
+    z-index: 0;
+}
+
+#east
+{
+    position: absolute;
+    top: 35px;
+    right: 0px;
+    width: 110px;
+    height: 100%;
+    z-index: 1;
+}
